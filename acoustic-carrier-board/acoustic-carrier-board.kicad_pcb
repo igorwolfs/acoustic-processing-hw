@@ -25004,7 +25004,7 @@
 	(footprint "iw-misc:TestPoint_Pad_D0.25mm"
 		(layer "F.Cu")
 		(uuid "43ba8f5e-533b-4d08-a069-d35ba20a0150")
-		(at 103.91 89.5)
+		(at 104.01 89.6)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP1110"
@@ -42809,10 +42809,10 @@
 			)
 		)
 	)
-	(footprint "iw-misc:TestPoint_Pad_D0.25mm"
+	(footprint "iw-misc:TestPoint_Pad_D0.125mm"
 		(layer "F.Cu")
 		(uuid "7f9628c6-1477-421a-85af-022c400b4867")
-		(at 111.01 87.8 90)
+		(at 111.33 87.47 90)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP1149"
@@ -42871,14 +42871,14 @@
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
-			(end 0.25 0)
+			(end 0.125 0)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "0e653276-1bcb-4c0b-856f-60c4cfcad002")
+			(uuid "cdf3bcee-ddea-49ea-8efc-06bf19387c25")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -1.45 90)
@@ -42893,7 +42893,7 @@
 		)
 		(pad "1" smd circle
 			(at 0 0 90)
-			(size 0.5 0.5)
+			(size 0.25 0.25)
 			(layers "F.Cu" "F.Mask")
 			(net 130 "/DDR3/DDR3.CKE")
 			(pinfunction "1")
@@ -81960,7 +81960,7 @@
 	(footprint "iw-misc:TestPoint_Pad_D0.25mm"
 		(layer "F.Cu")
 		(uuid "f7daed23-857b-48ea-8f19-e3ab09be01c6")
-		(at 99.99 91.37 90)
+		(at 100.06 91.42 90)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP1120"
@@ -237474,14 +237474,6 @@
 		(uuid "5c7e7bf2-4310-47c3-80cf-a58fff6bdd9a")
 	)
 	(segment
-		(start 111.01 87.8)
-		(end 111.33 87.48)
-		(width 0.1565)
-		(layer "F.Cu")
-		(net 130)
-		(uuid "7cd2a21a-8c16-4643-8c45-d654d199f259")
-	)
-	(segment
 		(start 108.544067 87.06)
 		(end 108.544067 86.8)
 		(width 0.1565)
@@ -237568,14 +237560,6 @@
 		(layer "F.Cu")
 		(net 130)
 		(uuid "f0a0c554-8cfc-404c-b54b-b00885af896d")
-	)
-	(segment
-		(start 111.33 87.48)
-		(end 111.33 87.46)
-		(width 0.1565)
-		(layer "F.Cu")
-		(net 130)
-		(uuid "f803781c-e90a-4e9f-a206-70ec8ef35da9")
 	)
 	(segment
 		(start 110.104067 87.06)
