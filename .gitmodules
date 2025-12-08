@@ -1,3 +1,6 @@
 [submodule "acoustic-processing-vhdl"]
 	path = acoustic-processing-vhdl
 	url = git@github.com:igorwolfs/acoustic-processing-vhdl.git
+[submodule "bringup/analog_frontend/various-IC-drivers"]
+	path = bringup/analog_frontend/various-IC-drivers
+	url = git@github.com:igorwolfs/various-IC-drivers.git
